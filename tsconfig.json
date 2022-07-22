@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "strict": true,
+    "types": ["babylonjs"],
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noUnusedLocals": false, // enable if you want vite to warn you when you have unused methods
+    "noUnusedParameters": true,
+    "noImplicitReturns": true
+  },
+  "include": ["./src"]
+}

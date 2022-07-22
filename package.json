@@ -1,0 +1,16 @@
+{
+  "name": "play-with-babylonjs",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vite": "^3.0.2"
+  },
+  "dependencies": {
+    "babylonjs": "^5.16.0"
+  }
+}
